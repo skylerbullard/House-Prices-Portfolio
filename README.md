@@ -16,6 +16,7 @@ _MSE_ is the average of squared error; the square difference between the predict
 _RMSE_ is the square root of _MSE_. _RMSE_ is measured in same units as target variable; penalizes larger errors more.
 
 ### To discover the data, we will review for
+
 -missing values
 -nulls
 -duplicates

@@ -1,7 +1,7 @@
 # House-Prices-Portfolio
 
 
-# Why estimate salaries?
+# Why estimate sale prices?
 
 Focusing on the product, we would want to predict house prices to give a consumer a better idea of what a home would cost. If a consumer knows the prices of a desireable home, this can help financial planning needed to make a purchase. The sale price of a home in this dataset may not match the final purchase price in real life. Predicting home prices will offer a starting price point for the consumer to consider.
 
@@ -9,11 +9,18 @@ This project aims to give a purchaser an estimate of what a home will cost. This
 
 A predictive _mean-squared-error_ model will be evaluated on _Root-Mean-Squared-Error(RMSE)_ between the logarithm of _predicted_ value and the logarithm of _observed_ sales price.
 
+# Strategy
+
+_MSE_ is the average of squared error; the square difference between the predicted and actual target variables divided by total amount of data points. _MSE_ is measured in units square of the target.
+
+_RMSE_ is the square root of _MSE_. _RMSE_ is measured in same units as target variable; penalizes larger errors more.
+
+
 # Data
 
 ### features: redefined in laymen's terms and specificied measuring units
 
-- SalePrice: (target) property sale price in dollars. the target variable
+- 'SalePrice': (target) property sale price in dollars. the target variable
 - 'MSSubClass': building classification identifying what house used for
 - 'MSZoning:' zoning classification
 - 'LotFrontage:' feet of street connected to front

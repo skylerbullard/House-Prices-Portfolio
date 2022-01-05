@@ -1,7 +1,7 @@
 # House-Prices-Portfolio
 
 
-# Why estimate sale prices?
+# Why Estimate Home Sale Prices?
 
 Focusing on the product, we would want to predict house prices to give a consumer a better idea of what a home would cost. If a consumer knows the prices of a desireable home, this can help financial planning needed to make a purchase. The sale price of a home in this dataset may not match the final purchase price in real life. Predicting home prices will offer a starting price point for the consumer to consider.
 
@@ -15,6 +15,12 @@ _MSE_ is the average of squared error; the square difference between the predict
 
 _RMSE_ is the square root of _MSE_. _RMSE_ is measured in same units as target variable; penalizes larger errors more.
 
+To discover the data, we will review for:
+-missing values
+-nulls
+-duplicates
+-target variable significance
+-target relationship to features
 
 # Data
 

@@ -17,11 +17,11 @@ _RMSE_ is the square root of _MSE_. _RMSE_ is measured in same units as target v
 
 ### To discover the data, we will review for
 
--missing values
--nulls
--duplicates
--target variable significance
--target relationship to features
+- missing values
+- nulls
+- duplicates
+- target variable significance
+- target relationship to features
 
 # Data
 

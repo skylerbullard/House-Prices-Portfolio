@@ -23,6 +23,18 @@ _RMSE_ is the square root of _MSE_. _RMSE_ is measured in same units as target v
 - target variable significance
 - target relationship to features
 
+### To develop an _MSE_ model, we will
+
+- preproccess the observed-training dataset
+- split the dataset with _train_test_split_ method
+
+### To deploy an _MSE_ model, we will
+
+- fit and transform
+- tune hyperparameters
+- 5-fold cross validate
+- visualize results
+
 # Data
 
 ### features: redefined in laymen's terms and specificied measuring units

@@ -7,6 +7,8 @@ Focusing on the product, we would want to predict house prices to give a consume
 
 This project aims to give a purchaser an estimate of what a home will cost. This project's final product will be a predictive model trained on a set of house features.
 
+A predictive _mean-squared-error_ model will be evaluated on _Root-Mean-Squared-Error(RMSE)_ between the logarithm of _predicted_ value and the logarithm of _observed_ sales price.
+
 # Data
 
 ### features: redefined in laymen's terms and specificied measuring units

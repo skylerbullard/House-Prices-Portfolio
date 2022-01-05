@@ -13,7 +13,7 @@ A predictive _mean-squared-error_ model will be evaluated on _Root-Mean-Squared-
 
 ### features: redefined in laymen's terms and specificied measuring units
 
-- 'SalePrice': (target) property sale price in dollars. the target variable
+- SalePrice: (target) property sale price in dollars. the target variable
 - 'MSSubClass': building classification identifying what house used for
 - 'MSZoning:' zoning classification
 - 'LotFrontage:' feet of street connected to front
